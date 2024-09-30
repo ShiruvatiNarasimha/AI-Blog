@@ -10,18 +10,15 @@ const Banner = () => {
     justify-center py-28 sm:pt-32
     transition-all animate-in"
     >
-      <h1 className="py-6 text-center">
-        Turn your words into{" "}
-        <span
-          className="underline
-            underline-offset-8
-            decoration-dashed
-            decoration-purple-200"
-        >
-          captivating
+      <h1 className="py-8 text-center text-4xl sm:text-5xl font-bold text-gray-900">
+        From Ordinary Words to{" "}
+        <span className="relative">
+          <span className="text-purple-600">Extraordinary</span>
+          <span className="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-purple-400 to-blue-400 opacity-70 rounded-md transform transition-all duration-300 ease-in-out hover:h-2 hover:opacity-100"></span>
         </span>{" "}
-        blog posts
+        Blogs
       </h1>
+
       <h2
         className="text-center px-4
       lg:px-0 lg:max-w-4xl"

@@ -1,5 +1,6 @@
 import Banner from "@/components/home/banner";
 import Howitworks from "@/components/home/howitworks";
+import Pricing from "@/components/home/pricing";
 import { Button } from "@/components/ui/button";
 import { Dot } from "lucide-react";
 import Image from "next/image";
@@ -38,6 +39,12 @@ export default function Home() {
         <Dot className="text-purple-400"></Dot>
       </div>
       <Howitworks />
+      <div className="flex items-center justify-center">
+        <Dot className="text-purple-400"></Dot>
+        <Dot className="text-purple-400"></Dot>
+        <Dot className="text-purple-400"></Dot>
+      </div>
+      <Pricing />
       <div className="flex items-center justify-center">
         <Dot className="text-purple-400"></Dot>
         <Dot className="text-purple-400"></Dot>

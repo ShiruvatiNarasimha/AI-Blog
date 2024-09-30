@@ -10,11 +10,13 @@ const NavLink = ({
 }) => {
   return (
     <Link
-      href="/"
+      href={href}
       className="transition-colors
       duration-200 text-gray-600
       hover:text-purple-500"
-    ></Link>
+    >
+      {children}
+    </Link>
   );
 };
 
@@ -26,12 +28,7 @@ const Header = () => {
     mx-auto"
     >
       <div className="flex lg:flex-1">
-        <Link
-          href="/"
-          className="transition-colors
-      duration-200 text-gray-600
-      hover:text-purple-500"
-        >
+        <NavLink href="/">
           <span className="flex items-center gap-2 shrink-0">
             <Image
               src="/icon.ico"
@@ -44,7 +41,7 @@ const Header = () => {
             />
             <span className="font-extrabold text-lg">SpeakEasy</span>
           </span>
-        </Link>
+        </NavLink>
       </div>
       <div className="flex lg:justify-center gap-2 lg:gap-12 lg:items-center">
         <Link href="/#pricing">Pricing</Link>

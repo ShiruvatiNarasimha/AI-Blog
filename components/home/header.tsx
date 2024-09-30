@@ -37,15 +37,22 @@ const Header = () => {
               height={32}
               className="hover:rotate-12
           transform transition
-          duration-200 ease-in-out"
+          duration-200 ease-in-out "
             />
             <span className="font-extrabold text-lg">SpeakEasy</span>
           </span>
         </NavLink>
       </div>
       <div className="flex lg:justify-center gap-2 lg:gap-12 lg:items-center">
-        <Link href="/#pricing">Pricing</Link>
-        <Link href="#posts">Your Posts</Link>
+        <NavLink href="/#pricing">Pricing</NavLink>
+        <NavLink href="#posts">Your Posts</NavLink>
+      </div>
+      <div className="flex lg:justify-end lg:flex-1">
+        <div className="flex gap-2 items-center">
+          <NavLink href="/dashboard">Upload a Video</NavLink>
+          {/** UseProfile */}
+        </div>
+        <NavLink href="/sign-in">Sign In</NavLink>
       </div>
     </nav>
   );

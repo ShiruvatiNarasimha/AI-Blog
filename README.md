@@ -2,12 +2,10 @@ Built with the Next.js 14 App Router, Clerk for Auth - with Passkeys, Github and
 
 
 
-
 <audio controls>
   <source src="" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
-
 
 
 

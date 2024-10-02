@@ -1,7 +1,7 @@
 Built with the Next.js 14 App Router, Clerk for Auth - with Passkeys, Github and Google Sign in, React, OpenAI - Whisper API, ShadCN UI library for components, React Markdown, NeonDb, UploadThing, Stripe for payments, Webhooks, TypeScript, TailwindCSS and more.
 
 
-![image alt]()
+![image alt](https://github.com/ShiruvatiNarasimha/speakeayaAI/blob/00184032a1aea4ddc2078d4cfc4945f9ca9f20ae/Screenshot%20(133).png)
 
 
 

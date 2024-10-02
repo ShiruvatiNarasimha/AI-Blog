@@ -12,7 +12,7 @@ const Pricing = () => {
       description: "Get started with SpeakEasy!",
       price: "10",
       items: ["3 Blog Post", "3 Transcription"],
-      paymentLink: "",
+      paymentLink: "https://buy.stripe.com/test_fZe4jwe7ycFj5r2cMM",
     },
     {
       id: "Pro",
@@ -20,7 +20,7 @@ const Pricing = () => {
       description: "All Blog Posts, let's go!",
       price: "19.99",
       items: ["Unlimited Blog Post", "Unlimited Transcriptions"],
-      paymentLink: "",
+      paymentLink: "https://buy.stripe.com/test_fZe4jwe7ycFj5r2cMM",
     },
   ];
   return (

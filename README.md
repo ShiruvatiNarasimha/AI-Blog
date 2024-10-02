@@ -2,8 +2,7 @@ Built with the Next.js 14 App Router, Clerk for Auth - with Passkeys, Github and
 
 
 ![image alt](https://github.com/ShiruvatiNarasimha/speakeayaAI/blob/00184032a1aea4ddc2078d4cfc4945f9ca9f20ae/Screenshot%20(133).png)
-
-
+![image alt](https://github.com/ShiruvatiNarasimha/speakeayaAI/blob/03fdd065ed2d7d5c7ad718bb250c515412c4d170/Screenshot%20(134).png)
 
 
 

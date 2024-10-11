@@ -18,13 +18,11 @@ const Banner = () => {
         </span>{" "}
         Blogs
       </h1>
-
       <h2
         className="text-center px-4
       lg:px-0 lg:max-w-4xl"
       >
-        Convert your video or voice into Blog Post in seconds with the power of
-        AI!
+        Convert your video or voice into Blog Post in seconds
       </h2>
       <Button
         variant={"link"}

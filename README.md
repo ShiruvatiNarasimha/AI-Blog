@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Built with the Next.js 14 App Router, Clerk for Auth - with Passkeys, Github and Google Sign in, React, OpenAI - Whisper API, ShadCN UI library for components, React Markdown, NeonDb, UploadThing, Stripe for payments, Webhooks, TypeScript, TailwindCSS and more.
 
-## Getting Started
 
-First, run the development server:
+![image alt](https://github.com/ShiruvatiNarasimha/speakeayaAI/blob/00184032a1aea4ddc2078d4cfc4945f9ca9f20ae/Screenshot%20(133).png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![image alt](https://github.com/ShiruvatiNarasimha/speakeayaAI/blob/03fdd065ed2d7d5c7ad718bb250c515412c4d170/Screenshot%20(134).png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Features
+🌐 Next.js 14 App Router & Server Actions
+🤖 OpenAI API for audio transcription and blog post generation
+🔐 Authentication with Clerk (Passkeys, Github, and Google Sign-in)
+📝 AI-powered blog post generation based on audio transcription
+💳 Stripe integration for payments and subscription management
+💾 NeonDb for database management
+📤 UploadThing for file uploads
+🎙️ Audio and video file processing (up to 25MB)
+📜 TypeScript for type safety
+💅 TailwindCSS for styling
+🎨 ShadCN UI library for beautiful components
+🔒 Secure file handling and processing
+🪝 Webhook implementation for Stripe events
+💰 Stripe integration for custom pricing table, payment links, and subscriptions
+📊 User dashboard for managing blog posts
+🖋️ Markdown editor for blog post editing
+📱 Responsive design for mobile and desktop
+🔄 Real-time updates and path revalidation
+🚀 Deployment-ready (likely for Vercel)
+🔔 Toast notifications for user feedback
+📈 Performance optimizations
+🔍 SEO-friendly blog post generation
+📊 Recent blog posts display
+🔐 Protected routes and API endpoints
+Getting started
+To get started with this project, you need to do the following,
 
-## Learn More
+Please fork the repo
+Copy the .env.example variables into a separate .env.local file
+Create the credentials mentioned in the Youtube tutorial to get started!
+1. How to fork and clone
+If you want to make changes and contribute to this project, you'll need to create a fork first. Forking creates a copy of the original project in your own GitHub account. This lets you experiment with edits without affecting the main project.
 
-To learn more about Next.js, take a look at the following resources:
+Look for the "Fork" button in the top right corner of the project on GitHub. Clicking it will create a copy under your account with the same name.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After forking the project, you can clone it just like you usually do.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Acknowledgements
+Clerk for making this project possible
+License

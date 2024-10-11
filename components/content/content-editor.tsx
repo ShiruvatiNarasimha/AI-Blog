@@ -49,14 +49,14 @@ export default function ContentEditor({
   posts: Array<{ content: string; title: string; id: string }>;
 }) {
   const [content, setContent] = useState(posts[0].content);
-  const [isChanged, setIsChanged] = useState(false);
+  const [, setIsChanged] = useState(false);
 
   const updatedPostActionWithId = updatePostAction.bind(null, {
     postId: posts[0].id,
     content,
   });
 
-  const [state, formAction] = useFormState<UploadState, FormData>(
+  const [, formAction] = useFormState<UploadState, FormData>(
     updatedPostActionWithId as unknown as UploadAction,
     initialState
   );

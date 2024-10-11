@@ -40,7 +40,7 @@ const Header = () => {
           transform transition
           duration-200 ease-in-out "
             />
-            <span className="font-extrabold text-lg">SpeakEasy</span>
+            <span className="font-extrabold text-lg">AI Blog</span>
           </span>
         </NavLink>
       </div>

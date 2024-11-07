@@ -38,7 +38,7 @@ const Howitworks = () => {
         className="flex items-center
       justify-center mb-24 text-center font-bold"
       >
-        Easily repurpose your content into SEO focused blog posts
+        Easily  your content into SEO focused blog posts
       </h3>
 
       <div

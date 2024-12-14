@@ -21,8 +21,6 @@ export async function POST(req: NextRequest) {
       sig!,
       process.env.STRIPE_WEBHOOK_SECRET!
     );
-
-    // Handle the event
     switch (event.type) {
       case "checkout.session.completed": {
         const session = await stripe.checkout.sessions.retrieve(
